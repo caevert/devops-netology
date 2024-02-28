@@ -13,3 +13,4 @@ override.tf.json
 Конфигурационные файлы интерфейса коммандной строки:
 .terraformrc
 terraform.rc
+ new 280224
