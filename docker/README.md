@@ -41,7 +41,7 @@ https://hub.docker.com/repository/docker/caevert24/custom-nginx/general
 
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод.
 
-<img src = "img/2-1.png" width = 60%> 
+<img src = "img/2-1.png" width = 90%> 
 
 
 
