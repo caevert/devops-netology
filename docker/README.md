@@ -41,7 +41,7 @@ https://hub.docker.com/repository/docker/caevert24/custom-nginx/general
 
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод.
 
-![](img/2_1.png)
+<img src = "img/2-1.png" width = 60%> 
 
 
 
