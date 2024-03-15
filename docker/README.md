@@ -52,7 +52,7 @@ https://hub.docker.com/repository/docker/caevert24/custom-nginx/general
 
 ```To stop a container, use CTRL-c. This key sequence sends SIGKILL to the container. If --sig-proxy is true (the default),CTRL-c sends a SIGINT to the container.```
 
-![](img/3-1.png)
+<img src = "img/3-1.png" width = 90%> 
 
 4. Перезапустите контейнер
 5. Зайдите в интерактивный терминал контейнера "custom-nginx-t2" с оболочкой bash.
@@ -60,12 +60,12 @@ https://hub.docker.com/repository/docker/caevert24/custom-nginx/general
 7. Отредактируйте файл "/etc/nginx/conf.d/default.conf", заменив порт "listen 80" на "listen 81".
 8. Запомните(!) и выполните команду ```nginx -s reload```, а затем внутри контейнера ```curl http://127.0.0.1:80 && curl http://127.0.0.1:81```.
 
-![](img/3-2.png)
+<img src = "img/3-2.png" width = 90%> 
 
 9. Выйдите из контейнера, набрав в консоли  ```exit``` или Ctrl-D.
 10. Проверьте вывод команд: ```ss -tlpn | grep 127.0.0.1:8080``` , ```docker port custom-nginx-t2```, ```curl http://127.0.0.1:8080```. Кратко объясните суть возникшей проблемы.
 
-![](img/3-3.png)
+<img src = "img/3-3.png" width = 90%> 
 
 ```Докер продолжает направлять трафик на 80 порт.```
 
